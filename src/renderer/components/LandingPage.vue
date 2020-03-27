@@ -25,14 +25,6 @@
                 </div>
                 <div class="doc">
                     <div class="title alt">Other Documentation</div>
-                    <button
-                        class="alt"
-                        @click="open('http;s://electron.atom.io/do    /')"
-                       Electron</button>
-                       button
-                            cl            lt"
-                        @click="ope;n('        s://    ejs.o;rg/v2/guide/')"
-                    >Vue.js</button>
                 </div>
             </div>
         </main>
@@ -53,7 +45,7 @@
   };
 </script>
 
-<style>
+<style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
 * {
@@ -127,7 +119,7 @@ main > div {
     padding: 0.75em 2em;
     border-radius: 2em;
     display: inline-block;
-    color: #fff;
+    color: $brand-primary;
     background-color: #4fc08d;
     transition: all 0.15s ease;
     box-sizing: border-box;
@@ -135,7 +127,7 @@ main > div {
 }
 
 .doc button.alt {
-    color: #42b983;
+    color: $brand-primary;
     background-color: transparent;
 }
 </style>
