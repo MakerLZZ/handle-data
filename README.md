@@ -49,3 +49,12 @@ loaders: {
     use: ['vue-style-loader', 'css-loader', 'sass-loader?data=@import "@/styles globals";']
 }
 ```
+
+## main 主进程 窗口配置 系统托盘配置
+将采用模拟顶部
+
+## 引入 element-ui
+
+## 主体页面布局
+
+## 引入 iconfont
