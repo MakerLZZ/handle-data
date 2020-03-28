@@ -1,0 +1,23 @@
+{
+  "id": "1720609",
+  "name": "electron",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "electron-demo",
+  "glyphs": [
+    {
+      "icon_id": "8748027",
+      "name": "icon神经网络",
+      "font_class": "relation",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "4391179",
+      "name": "最大化",
+      "font_class": "max",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
